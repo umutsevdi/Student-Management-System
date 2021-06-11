@@ -1,0 +1,7 @@
+201001	04	121001	Structural Programming
+201002	04	121002	Discrete Maths
+201003	04	121003	Circuit Theory
+201004	04	121002	Signals and Systems
+201008	06	121001	Object Oriented Programming
+201006	03	121004	Logic Circuits
+201007	06	121005	Probability and Statistics
