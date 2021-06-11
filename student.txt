@@ -4,9 +4,9 @@
 101005	01,19	Faruk Ozdemir
 101006	01,21	Can Yakin
 101007	00,25	Mehmet Yakin
-101008	01,19	Khaled Hosseini
+101008	01,19	KhaledHosseini
 101008	00,25	Hakan Yildiz
-101009	00,25	Cemile Gundogdu
+101009	00,25	Cemile Gund
 101010	01,21	Ayse Yildiz
 101011	00,25	Onur Ipek
 101013	00,25	Ekin Yildirim

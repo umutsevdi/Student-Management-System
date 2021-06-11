@@ -85,9 +85,9 @@ int mainmenu()
 	printf("Lecture Management System\nUmutcan Sevdi\nStructural Programming Project");
 	printf("\n\n__________________________________________________________________________________\n"
 		   "Options=\n__________________________________________________________________________________\n"
-		   "1)Search\t\t\t| Inspect a lecture, student or an academician.\n"
+		   "1)Search\t\t| Inspect a lecture, student or an academician.\n"
 		   "2)Student Management\t| Displays students.\n"
-		   "3)Academician Management\t| Displays academicians.\n"
+		   "3)Academician Management| Displays academicians.\n"
 		   "4)Lecture Management\t| Displays avaliable lectures.\n"
 		   "\n-------------------------------------------------------------------------------\nUse Backspace to exit\n-------------------------------------------------------------------------------\n");
 	switch (getch())
@@ -106,7 +106,7 @@ int mainmenu()
 		break;
 	case 8:
 		printf("\n=mainMenuExit");
-		return 0;
+		exit(0);
 	default:
 		printf("Invalid Command\n\n-------------------------------------------------------------------------------\nPress any key to try again");
 		getch();
@@ -182,14 +182,14 @@ int studentMenu()
 		}
 	}
 	printf("\nStudent List\n_________________________________________"
-		   "\n|ID\t|Name\t\t|Lecture\t|Credit");
+		   "\n|ID\t|Name\t\t|Lecture|Credit");
 	for (i = 0; i < line; i++)
 	{
 		printf("\n|%s\t|%s\t|%s\t|%s", stud[i].id, stud[i].name, stud[i].lecture, stud[i].credit);
 	}
-	printf("\n|Toplam\t|%d\n_________________________________________________________", line);
-	printf("\nSecenekler=\n__________________________________________________________________________________\n"
-		   "1)Add\t| Add a student to the system.\n"
+	printf("\n|Total\t|%d\n_________________________________________________________", line);
+	printf("\nOptions=\n__________________________________________________________________________________\n"
+		   "1)Add\t\t| Add a student to the system.\n"
 		   "2)Update\t| Updates a student's properties.\n"
 		   "3)Delete\t| Deletes a student.\n"
 		   "4)Add Student to Lecture\t| Adds a student to a lecture.\n"
@@ -942,8 +942,8 @@ int academicianMenu()
 	{
 		printf("\n|%s\t|%s\t|%s", lecturer[i].id, lecturer[i].name, lecturer[i].label);
 	}
-	printf("\n|Toplam\t|%d\n_________________________________________________________", line);
-	printf("\nSecenekler=\n__________________________________________________________________________________\n"
+	printf("\n|Total\t|%d\n_________________________________________________________", line);
+	printf("\nOptions=\n__________________________________________________________________________________\n"
 		   "1)Academician Add\t| Adds an academician to the system.\n"
 		   "2)Academician Update\t| Updates the Academician information.\n"
 		   "3)Academician Delete\t| Deletes the Academician from system.\n"
@@ -1229,11 +1229,11 @@ int lectureMenu()
 	{
 		printf("\n|%s\t|%s\t\t|%s\t|%s", lecture[i].id, lecture[i].lecturerId, lecture[i].credit, lecture[i].name);
 	}
-	printf("\n|Toplam\t|%d\n_________________________________________________________", line);
-	printf("\nSecenekler=\n__________________________________________________________________________________\n"
-		   "1)lecture Add\t| lecturei to system kaydeder.\n"
-		   "2)lecture Update\t| lecture informationni gunceller.\n"
-		   "3)lecture Delete\t| lecturei sistemden siler.\n"
+	printf("\n|Total\t|%d\n_________________________________________________________", line);
+	printf("\nOptions=\n__________________________________________________________________________________\n"
+		   "1)Add\t| Adds lecture to the system.\n"
+		   "2)Update\t| Updates the lecture information\n"
+		   "3)Delete\t| Deletes the lecture.\n"
 		   "\n-------------------------------------------------------------------------------\nUse Backspace to return\n-------------------------------------------------------------------------------\n");
 	printf("\n=\t");
 	switch (c = getch())
@@ -1742,7 +1742,7 @@ void searchStudent(char *text, student *stud, int line, points *grade, int lineP
 	}
 	if (counter)
 	{
-		printf("%s  bulundu.\n"
+		printf("%s  is found.\n"
 			   "Press 1 to save on a file,\nPress any key to inspect only.\n",
 			   stud[i].name);
 		counter = i;
@@ -1811,7 +1811,7 @@ void searchAcademician(char *text, academician *lecturer, int line, lectureType 
 	}
 	if (counter)
 	{
-		printf("%s  bulundu.\n"
+		printf("%s  is found.\n"
 			   "Press 1 to save on a file,\nPress any key to inspect only.\n",
 			   lecturer[i].name);
 		counter = i;

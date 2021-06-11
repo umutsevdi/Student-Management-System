@@ -1,5 +1,4 @@
-121001	Professor	Yunus Emre Selcuk
+121001	Professor	Yunus Emre
 121002	Professor	Ahmet Elbir
 121003	Professor	Erkan Uslu
-121004	Professor Bilgin
 121005	Professor	Oguz Altun
