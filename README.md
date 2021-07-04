@@ -9,8 +9,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="http://github.com/umutsevdi1/Student-Management-System">
-    <img src="https://github.com/umutsevdi1/Student-Management-System/blob/main/screenshots/lecturemenu.png" alt="Logo" width="80" height="80">
+  <a href="http://github.com/umutsevdi/Student-Management-System">
+    <img src="https://github.com/umutsevdi/Student-Management-System/blob/main/screenshots/lecturemenu.png" alt="Logo" width="80" height="80">
   </a>
   
   <h3 align="center">Student-Management-System</h3>
@@ -32,7 +32,7 @@
 * Lecture Management : Display lecture list and update their status.
 
 
-![Screenshot 1](https://github.com/umutsevdi1/Student-Management-System/blob/main/screenshots/mainmenu.png)
+![Screenshot 1](https://github.com/umutsevdi/Student-Management-System/blob/main/screenshots/mainmenu.png)
 
 ## Search 
 * Searches a student, lecture or an academician by their ID. 
@@ -40,27 +40,27 @@
 * This file can be saved individually by pressing 1.
 
 
-![Screenshot 2](https://github.com/umutsevdi1/Student-Management-System/blob/main/screenshots/search1.png)
-![Screenshot 3](https://github.com/umutsevdi1/Student-Management-System/blob/main/screenshots/search1.png)
+![Screenshot 2](https://github.com/umutsevdi/Student-Management-System/blob/main/screenshots/search1.png)
+![Screenshot 3](https://github.com/umutsevdi/Student-Management-System/blob/main/screenshots/search1.png)
 
 ## Student Management
 * Displays list of students with their basic informations.
 * Contains following commands : add, update, delete, add student to lecture , delete student from lecture
 
-![Screenshot 4](https://github.com/umutsevdi1/Student-Management-System/blob/main/screenshots/studentmenu.png)
+![Screenshot 4](https://github.com/umutsevdi/Student-Management-System/blob/main/screenshots/studentmenu.png)
 
 ## Academician Management
 * Displays list of academicians with their basic informations.
 * Contains following commands : add, update and delete
 
-![Screenshot 4](https://github.com/umutsevdi1/Student-Management-System/blob/main/screenshots/academicianmenu.png)
+![Screenshot 4](https://github.com/umutsevdi/Student-Management-System/blob/main/screenshots/academicianmenu.png)
 
 
 ## Lecture Type Management
 * Displays list of lectures with their basic informations.
 * Contains following commands : add, update and delete
 
-![Screenshot 4](https://github.com/umutsevdi1/Student-Management-System/blob/main/screenshots/lecturemenu.png)
+![Screenshot 4](https://github.com/umutsevdi/Student-Management-System/blob/main/screenshots/lecturemenu.png)
 
 
 <!-- LICENSE -->
@@ -71,19 +71,19 @@ Distributed under the  MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 ## Contact
-* Project Link: [https://github.com/umutsevdi1/Student-Management-System](https://github.com/umutsevdi1/Student-Management-System)
+* Project Link: [https://github.com/umutsevdi/Student-Management-System](https://github.com/umutsevdi/Student-Management-System)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[forks-shield]: https://img.shields.io/github/forks/umutsevdi1/Student-Management-System.svg?style=for-the-badge
-[forks-url]: https://github.com/umutsevdi1/Student-Management-System/network/members
-[stars-shield]: https://img.shields.io/github/stars/umutsevdi1/Student-Management-System.svg?style=for-the-badge
-[stars-url]: https://github.com/umutsevdi1/Student-Management-System/stargazers
-[issues-shield]: https://img.shields.io/github/issues/umutsevdi1/Student-Management-System.svg?style=for-the-badge
-[issues-url]: https://github.com/umutsevdi1/Student-Management-System/issues
-[license-shield]:  https://img.shields.io/github/license/umutsevdi1/Student-Management-System.svg?style=for-the-badge
-[license-url]: https://github.com/umutsevdi1/Student-Management-System/blob/main/LICENSE
+[forks-shield]: https://img.shields.io/github/forks/umutsevdi/Student-Management-System.svg?style=for-the-badge
+[forks-url]: https://github.com/umutsevdi/Student-Management-System/network/members
+[stars-shield]: https://img.shields.io/github/stars/umutsevdi/Student-Management-System.svg?style=for-the-badge
+[stars-url]: https://github.com/umutsevdi/Student-Management-System/stargazers
+[issues-shield]: https://img.shields.io/github/issues/umutsevdi/Student-Management-System.svg?style=for-the-badge
+[issues-url]: https://github.com/umutsevdi/Student-Management-System/issues
+[license-shield]:  https://img.shields.io/github/license/umutsevdi/Student-Management-System.svg?style=for-the-badge
+[license-url]: https://github.com/umutsevdi/Student-Management-System/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/umut-sevdi
 
